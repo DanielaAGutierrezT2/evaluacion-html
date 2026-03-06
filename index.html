@@ -4,6 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evaluacion_HTML</title>
+        <style>
+        header {
+            background-color: #ffffffd7;
+            padding: 20px;
+        }
+
+               img {
+            display: block;
+            margin: 0 auto;
+        }
+        nav {
+            background-color: #484643;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        #Inicio {
+            margin: 5px;
+            padding: 15px;
+            background-color: #944903;
+            border-radius: 10px;
+            border:#944903;
+            margin-top: 10px;
+        }   
+
+        #Historia {
+            margin: 5px;
+            padding: 15px;
+            background-color: #432408;
+            border-radius: 10px;
+            border:#944903;
+            margin-top: 10px;
+        }
+        #Productos {
+            margin: 5px;
+            padding: 15px;
+            background-color: #b38b67;
+            border-radius: 10px;
+            border:#944903;
+            margin-top: 10px;
+        }
+        #Galería {
+            margin: 5px;
+            padding: 15px;
+            background-color: #8a847e;
+            border-radius: 10px;
+            border:#944903;
+            margin-top: 10px;
+        }
+        #Contacto {
+            margin: 5px;
+            padding: 15px;
+            background-color: #dc6d0c;
+            border-radius: 10px;
+            border:#040302;
+            margin-top: 10px;
+        }
+
+        table {
+            margin-top: 10px;
+            border: 1px solid #e0d9d9;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #e0d9d9;
+        }
+
+        footer {
+            background-color: #969490;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 10px;
+            height: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 13px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #a86b09;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h2 {
+            color: #eccc97;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h3 {
+            color: #eccc97;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        p {
+            color: #e0d9d9;
+            font-family:sans-serif
+        }
+        li {
+            color: #e0d9d9;
+            font-family:sans-serif
+        }
+        a {
+            margin-right: 15px;
+            font-family: 'sans-serif';
+            text-align: center;
+            color: #e0d9d9;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -11,7 +116,7 @@
         <h1>Repostería Los Pasteles de Maria Antonieta</h1>
     </header>
     <nav>
-        <a href="Inicio">Inicio</a> <a href="Historia">Historia</a> <a href="Productos">Productos</a> <a href="Galería">Galería</a> <a href="Contacto">Contacto</a>
+        <a href="#Inicio">Inicio</a> <a href="#Historia">Historia</a> <a href="#Productos">Productos</a> <a href="#Galería">Galería</a> <a href="#Contacto">Contacto</a>
     </nav>
     <main>
         <section id="Inicio">
@@ -51,6 +156,7 @@
         <section id="Productos">
             <h2>Nuestras Delicias</h2>        
             <p>Ofrecemos una amplia variedad de productos, desde pasteles personalizados para ocasiones especiales hasta postres clásicos que nunca pasan de moda</p>
+            <img src="img/producto1.png" alt="Producto1" width="300px"> <img src="img/producto2.png" alt="Producto2" width="300px"> <img src="img/producto3.png" alt="Producto3" width="300px">
         </section>
         <section id="Galería">
             <h2>Galería</h2>
@@ -68,12 +174,20 @@
                 </tr>
             </table>
         </section>
-        <section id="Contactanos">
+        <section id="Contacto">
             <h2>Contacto</h2>
             <h3>Sedes</h3>
             <ul>
                 <li>Centro Comercial <a href="https://maps.app.goo.gl/3MQ2Ut5mNBoCnoDo6" target="_blank">Viva Envigado</a></li>
                 <li>Centro Comercial <a href="https://maps.app.goo.gl/kuZ7VD7pdBM8syGc8" target="_blank">Puerta del Norte</a></li>
+                <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.4222029851157!2d-75.5478716243813!3d6.3393243089310545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f9a57f14d2b%3A0xaa895da5804ee322!2sCentro%20Comercial%20Puerta%20del%20Norte!5e0!3m2!1ses!2sco!4v1772769792713!5m2!1ses!2sco"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+                </iframe>
             </ul>
             <h3>Teléfonos</h3>
             <ul>
